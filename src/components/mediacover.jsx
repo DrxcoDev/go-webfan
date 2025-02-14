@@ -12,7 +12,7 @@ export default function MediaCover() {
       sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0 }}
       className='pr-[200px]'
     >
-    <div className="grid grid-cols-2 md:grid-cols-4"></div>
+    <div className="grid grid-cols-1 justify-center flex items-center md:grid-cols-4 w-full">
         <Card component="li" sx={{ maxWidth: 300, flexGrow: 1, backgroundColor: 'transparent', border: 'none'}} className='mr-[50px] p-10 border border-gray-800 hover:blur-xs duration-800'>
             <CardCover className="flex justify-center items-center">
                 <img
@@ -97,6 +97,7 @@ export default function MediaCover() {
                 </Typography>
             </CardContent>
         </Card>
+        </div>
     </Box>
   );
 }

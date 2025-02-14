@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div className="text-gray-200">
-        <div className="mt-[200px] ml-[50px]  md:ml-[100px]">
+        <div className="mt-[200px] pl-[50px]  md:pl-[100px] ">
               <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -mt-[200px]  -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
@@ -26,10 +26,10 @@ function App() {
                   className="relative left-[calc(50%+3rem)] aspect-1155/678 w-[36.125rem] -translate-x-1/2 bg-linear-to-tr from-[#2986cc] to-[#56b6ff] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
                 />
               </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10 max-w-7xl mx-auto space-y-12 lg:space-y-0 lg:space-x-8 flex flex-col py-20 lg:flex-row items-center justify-between">
 
             <div className="mr-[100px]">
-              <h1 className="text-5xl font-semibold poppins-font">Build simple, secure, scalable systems with <span className='text-blue-300'>Go</span></h1>
+              <h1 className="text-5xl md:text-7xl font-bold poppins-font bg-clip-text text-transparent bg-gradient-to-b from-blue-50 to-blue-400">Build simple, secure, scalable systems with <span className='text-blue-300'>Go</span></h1>
 
               <ul className='my-10 ml-5 text-lg list-disc'>
                 <li>An open-source programming language supported by Google </li>
@@ -75,7 +75,7 @@ function App() {
             </div>
           </div>
 
-          <div className="mt-[400px] mb-[200px] ml-[180px]">
+          <div className="mt-[500px] mb-[200px] sm:pl-28">
             <Companies></Companies>
           </div>
           <div className="mt-[200px] mr-[100px] mb-[200px] flex items-center justify-left">
